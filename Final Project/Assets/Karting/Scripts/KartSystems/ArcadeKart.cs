@@ -404,9 +404,9 @@ namespace KartGame.KartSystems
         public TextMeshProUGUI countText;
         private int count;
 
-        private void OnTriggerEnter2D(Collider2D other)
+        private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.tag == "Coin")
+            if (other.gameObject.CompareTag("Coin"))
             {
                 Destroy(other.gameObject);
 
