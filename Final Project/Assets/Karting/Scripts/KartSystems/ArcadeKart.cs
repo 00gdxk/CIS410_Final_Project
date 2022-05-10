@@ -2,8 +2,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.VFX;
-//using UnityEngine.InputSystem;
-using TMPro;
 
 namespace KartGame.KartSystems
 {
@@ -399,28 +397,6 @@ namespace KartGame.KartSystems
                 // use this value to play kart sound when it is waiting the race start countdown.
                 return Input.Accelerate ? 1.0f : 0.0f;
             }
-        }
-
-        public TextMeshProUGUI countText;
-        private int count;
-
-        private void OnTriggerEnter(Collider other)
-        {
-            if (other.gameObject.CompareTag("Coin"))
-            {
-                Destroy(other.gameObject);
-
-                // Add one to the score variable 'count'
-                count = count + 1;
-
-                // Run the 'SetCountText()' function (see below)
-                SetCountText();
-            }
-        }
-
-        void SetCountText()
-        {
-            countText.text = "Count: " + count.ToString();
         }
 
         void OnCollisionEnter(Collision collision) => m_HasCollision = true;
