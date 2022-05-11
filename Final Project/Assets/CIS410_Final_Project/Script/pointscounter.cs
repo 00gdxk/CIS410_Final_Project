@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using TMPro;
 
 public class pointscounter : MonoBehaviour
 {
     public TextMeshProUGUI countText;
+    public AudioSource coinSound;
     private int count;
 
     void Start()
@@ -24,6 +26,7 @@ public class pointscounter : MonoBehaviour
         if (other.gameObject.CompareTag("Coin"))
         {
             Destroy(other.gameObject);
+            coinSound.Play();
 
             // Add one to the score variable 'count'
             count = count + 1;
