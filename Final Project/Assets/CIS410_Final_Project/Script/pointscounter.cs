@@ -9,6 +9,7 @@ public class pointscounter : MonoBehaviour
 {
     public TextMeshProUGUI countText;
     public AudioSource coinSound;
+    public AudioSource barrierSound;
     private int count;
 
     void Start()
@@ -30,6 +31,20 @@ public class pointscounter : MonoBehaviour
 
             // Add one to the score variable 'count'
             count = count + 1;
+
+            // Run the 'SetCountText()' function (see below)
+            SetCountText();
+        }
+    }
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("barrier"))
+        {
+            //Destroy(other.gameObject);
+            barrierSound.Play();
+
+            // minus one to the score variable 'count'
+            count = count - 1;
 
             // Run the 'SetCountText()' function (see below)
             SetCountText();

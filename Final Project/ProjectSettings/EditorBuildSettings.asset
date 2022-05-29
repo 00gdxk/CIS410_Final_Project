@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/CIS410_Final_Project/Scene/Final Project Scene.unity
     guid: 62ffa09eb21a8a3449594d19c70612ba
   - enabled: 1
-    path: Assets/city/city scene.unity
+    path: Assets/CIS410_Final_Project/city/city scene.unity
     guid: fbb8340e60966544f8c5d081083ee151
   - enabled: 1
     path: Assets/CIS410_Final_Project/Scene/Forest.unity
