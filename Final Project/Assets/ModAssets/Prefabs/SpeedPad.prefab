@@ -115,8 +115,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boostStats:
     modifiers:
-      TopSpeed: 9
-      Acceleration: 11
+      TopSpeed: 10
+      Acceleration: 7
       ReverseSpeed: 0
       ReverseAcceleration: 0
       AccelerationCurve: 0

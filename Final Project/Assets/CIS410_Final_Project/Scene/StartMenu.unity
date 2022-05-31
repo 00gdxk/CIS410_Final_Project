@@ -3796,14 +3796,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Press up, down, left, and right arrow keys to control the movement of
+  m_text: "\nPress up, down, left, and right arrow keys to control the movement of
     the kart. \n\nThe game will be finished in a limited time automatically. Do your
     best to collect as many coins as possible in the limited time, the number of
     coins will be your final score!\n\nPlease try your best to avoid the barriers
     since if you hit them, you will lose two coins. Also, if you hit one barrier
     several times, you will lose more coins.\n\nThere are several acceleration pads
-    on each track. When you hit it, the kart will accelerate.\n*Click the back button
-    to return to the start menu*\n\nGo Ducks!!!"
+    on each track. When you hit it, the kart will accelerate.\n\n*Click the back
+    button to return to the start menu*\n\nGo Ducks!!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

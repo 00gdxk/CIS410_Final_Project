@@ -42,12 +42,18 @@ public class pointscounter : MonoBehaviour
         {
             //Destroy(other.gameObject);
             barrierSound.Play();
-
-            // minus one to the score variable 'count'
-            count = count - 1;
-
-            // Run the 'SetCountText()' function (see below)
-            SetCountText();
+            if (count >= 0) {
+                // minus two to the score variable 'count'
+                count = count - 2;
+                //make sure the least score is 0
+                if (count < 0)
+                {
+                    count = 0;
+                }
+                // Run the 'SetCountText()' function (see below)
+                SetCountText();
+            }
+            
         }
     }
 }
