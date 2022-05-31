@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18169594, g: 0.22364005, b: 0.2858716, a: 1}
+  m_IndirectSpecularColor: {r: 0.18169636, g: 0.22364047, b: 0.2858723, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3796,24 +3796,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Do your best to collect as many coins as possible, the number of coins
-    will be your final score!
-
-
-    Try to avoid the barriers since when you hit
-    it, you will lose two coins.
-
-
-    There are several acceleration points on each
-    track. When you hit it, the kart will accelerate.
-
-
-    Press up, down, left,
-    and right keys to control the movement of the kart. Finish it in 70 seconds.
-
-
-    GO
-    Ducks!!!'
+  m_text: "Press up, down, left, and right arrow keys to control the movement of
+    the kart. \n\nThe game will be finished in a limited time automatically. Do your
+    best to collect as many coins as possible in the limited time, the number of
+    coins will be your final score!\n\nPlease try your best to avoid the barriers
+    since if you hit them, you will lose two coins. Also, if you hit one barrier
+    several times, you will lose more coins.\n\nThere are several acceleration pads
+    on each track. When you hit it, the kart will accelerate.\n*Click the back button
+    to return to the start menu*\n\nGo Ducks!!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3840,8 +3830,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.2
-  m_fontSizeBase: 26.2
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
