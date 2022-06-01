@@ -21,7 +21,7 @@ public class TrggerEndMenu : MonoBehaviour
     void OnTriggerEnter(Collider other) 
     {
         TriggerTimes = TriggerTimes + 1;
-        if (TriggerTimes == 2)
+        if (TriggerTimes >= 2 && mapTrigger.map_Trigger == 1)
         {
             SceneManager.LoadScene("EndMenu");
         }
