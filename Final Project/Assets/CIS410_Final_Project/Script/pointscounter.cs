@@ -10,7 +10,7 @@ public class pointscounter : MonoBehaviour
     public TextMeshProUGUI countText;
     public AudioSource coinSound;
     public AudioSource barrierSound;
-    private int count;
+    public static int count;
 
     void Start()
     {
