@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18171185, g: 0.2236736, b: 0.2859546, a: 1}
+  m_IndirectSpecularColor: {r: 0.18169594, g: 0.22364005, b: 0.2858716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5045,9 +5045,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ff2a303f50c22f747a469f94cb6468b9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 574d4d70c291f4482b2f3eb928e89843, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.12
+  m_Volume: 0.366
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6934,7 +6934,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227590015}
-  m_LocalRotation: {x: 0.07006615, y: 0.6929186, z: -0.06796142, w: 0.71437794}
+  m_LocalRotation: {x: 0.070066154, y: 0.6929186, z: -0.06796143, w: 0.71437794}
   m_LocalPosition: {x: -12.633211, y: 5.2790003, z: -22.90594}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12196,6 +12196,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1479267098}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1479267098}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: EndPause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -52289,7 +52301,7 @@ PrefabInstance:
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.07006615
+      value: 0.070066154
       objectReference: {fileID: 0}
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
@@ -52299,7 +52311,7 @@ PrefabInstance:
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.06796142
+      value: -0.06796143
       objectReference: {fileID: 0}
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
@@ -57494,7 +57506,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1819623185}
-  m_RootOrder: 142
+  m_RootOrder: 123
   m_LocalEulerAnglesHint: {x: 0, y: 41.423, z: 0}
 --- !u!65 &1610382162
 BoxCollider:
@@ -64214,6 +64226,7 @@ Transform:
   - {fileID: 187478346}
   - {fileID: 340076942}
   - {fileID: 1155879920}
+  - {fileID: 1610382161}
   - {fileID: 1860510215}
   - {fileID: 1124127345}
   - {fileID: 1672613466}
@@ -64233,7 +64246,6 @@ Transform:
   - {fileID: 1540520399}
   - {fileID: 1663466510}
   - {fileID: 613629157}
-  - {fileID: 1610382161}
   - {fileID: 191029}
   - {fileID: 57111927}
   - {fileID: 1166040656}
