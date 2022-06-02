@@ -6934,7 +6934,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227590015}
-  m_LocalRotation: {x: 0.07006616, y: 0.6929186, z: -0.06796143, w: 0.71437794}
+  m_LocalRotation: {x: 0.07006615, y: 0.6929186, z: -0.06796142, w: 0.71437794}
   m_LocalPosition: {x: -12.633211, y: 5.2790003, z: -22.90594}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -52356,7 +52356,7 @@ PrefabInstance:
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.07006616
+      value: 0.07006615
       objectReference: {fileID: 0}
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
@@ -52366,7 +52366,7 @@ PrefabInstance:
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.06796143
+      value: -0.06796142
       objectReference: {fileID: 0}
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
@@ -66252,7 +66252,6 @@ GameObject:
   - component: {fileID: 1901990313}
   - component: {fileID: 1901990312}
   - component: {fileID: 1901990311}
-  - component: {fileID: 1901990315}
   m_Layer: 0
   m_Name: ConfettiTrigger
   m_TagString: Untagged
@@ -66402,18 +66401,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901990309}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1901990315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901990309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88b771f8de2b646d982a83afe6e22c3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1903591441
 PrefabInstance:
   m_ObjectHideFlags: 0
