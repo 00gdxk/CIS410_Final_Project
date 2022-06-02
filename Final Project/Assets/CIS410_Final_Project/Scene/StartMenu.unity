@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18169594, g: 0.22364005, b: 0.2858716, a: 1}
+  m_IndirectSpecularColor: {r: 0.18169636, g: 0.22364047, b: 0.2858723, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3797,13 +3797,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\nPress up, down, left, and right arrow keys to control the movement of
-    the kart. \n\nThe game will be finished in a limited time automatically. Do your
-    best to collect as many coins as possible in the limited time, the number of
-    coins and time left will be your score!\n\nPlease try your best to avoid the
-    barriers since if you hit them, you will lose two coins. Also, if you hit one
-    barrier several times, you will lose more coins.\n\nThere are several acceleration
-    pads on each track. When you hit it, the kart will accelerate.\n\n*Click the
-    back button to return to the start menu*\n\nGo Ducks!!!"
+    the kart. \nDrifting: Press the spacebar to drift while turning.\n\nThe game
+    will be finished in a limited time automatically. Do your best to collect as
+    many coins as possible in the limited time, the number of coins and time left
+    will be your score!\n\nPlease try your best to avoid the barriers since if you
+    hit them, you will lose two coins. Also, if you hit one barrier several times,
+    you will lose more coins.\n\nThere are several acceleration pads on each track.
+    When you hit it, the kart will accelerate.\n\n*Click the back button to return
+    to the start menu*\n\nGo Ducks!!!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3830,8 +3831,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
