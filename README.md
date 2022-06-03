@@ -4,11 +4,11 @@ Be the No.1
 ## Group member
 Xiaoyue(Rebecca) Hu, Kai Xiong, Xiang Hao
 ## Game link
-will be update
+[Game Link](https://play.unity.com/mg/other/webgl-builds-198875)
 ## Tutorial
 
 Press up, down, left, and right arrow keys to control the movement of the kart. 
-Drifting: Press the spacebar to drift while turning.
+Drifting: Press the spacebar to drift while turning. Release the left and right arrow keys or slow down to stop drifting
 
 The game will be finished in a limited time automatically. Do your best to collect as many coins as possible in the limited time, the number of coins and time left will be your score!
 
